@@ -1,0 +1,869 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AEDAAC59A424BE8E8124DE1E5996D4B /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DEFD0DE380031F5EA0AAB2989FE092 /* RoundImageView.swift */; };
+		0F7EB8739185904507B4E3FBDD434EB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		155F7706C8BE56195146DE5EEF76D09D /* Segmentio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA39678FE99EAB198FA0EE9DB8D3816 /* Segmentio.swift */; };
+		22BC3D16611E41BE33AAAFDB4F1D08C8 /* SegmentioCellWithImageUnderLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7768A6143D47EE2D632CB24B545973D /* SegmentioCellWithImageUnderLabel.swift */; };
+		43243E425D32D3F84E1FC0235C7D39B0 /* Pods-WunderfullTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 587A45558D039A2F31A1681226F1AAF4 /* Pods-WunderfullTests-dummy.m */; };
+		4C7DFF8DC09E08A4960C06E65EBBD0AD /* SegmentioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0DA5167506E0D8EFC4A8513709D04A /* SegmentioCell.swift */; };
+		513A49CC1A4F9448056280EE6B02A38A /* Pods-Wunderfull-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 147451DA47D67BD9EA65C5751AFCD521 /* Pods-Wunderfull-dummy.m */; };
+		5CD3B0F376A10A998A1106172EC18630 /* Pods-Wunderfull-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38012DCFAA02439BDB0B542B133B060D /* Pods-Wunderfull-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64C03B87DB69925D58C249FDA30F0036 /* UIView+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6421BEF277E5F0B663CE85CBA4DB2BE /* UIView+Appearance.swift */; };
+		6C31EFFE4EA63CCD6F86F3482F00FAD0 /* BadgeWithCounterViewStandardSized.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED2A38A2C38807FF69B8631FB7080E5C /* BadgeWithCounterViewStandardSized.xib */; };
+		6F3B5620D856CFDB8ABD7200ADD5D834 /* BadgeWithCounterViewBigSized.xib in Resources */ = {isa = PBXBuildFile; fileRef = 126547E310D4BACF2C48971BEE068102 /* BadgeWithCounterViewBigSized.xib */; };
+		77E28CC25F8018E1020D43ACDD29C8BF /* SegmentioOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4CD7463DAF8A1FE2526B31D4144A3C /* SegmentioOptions.swift */; };
+		86345515ED14955A89B29DA6E2A77A2D /* BadgeWithCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DB878EFAED98251244A304C308DE3C /* BadgeWithCounterView.swift */; };
+		9DE109BC9150FF0E15CA82F2D481FAFA /* Pods-WunderfullTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E606DA645CC2D215401A36045A27BCE /* Pods-WunderfullTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FA3B1EC714B48B43DEA0286B086D939 /* Segmentio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A77591B47AB327524F82E23E5D54E4BA /* Segmentio-dummy.m */; };
+		A1CFDD9BF2DA059DD9F0A0445CF0B377 /* SegmentioCellWithLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957462F291EE71DF65FDD08ABBF91F80 /* SegmentioCellWithLabel.swift */; };
+		A75187FA120665C6E49E3AD95198836E /* BadgeViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EEE55722E51A7452501D318A88C9C4 /* BadgeViewPresenter.swift */; };
+		ABAFF160B2C0A072438C9A365F4C2E64 /* SegmentioCellWithImageBeforeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34104139371FB419BCE4270CEC2844BB /* SegmentioCellWithImageBeforeLabel.swift */; };
+		B0BBC6C3FCDCE0E42336AABDFBA68CAD /* SegmentioCellWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50C4CE058E3DABA4E4557D8115A844 /* SegmentioCellWithImage.swift */; };
+		B895FE1D36D0856A28AF43266E32D0CE /* SegmentioCellWithImageAfterLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B62DB24F11081012FE3508CA869A6B /* SegmentioCellWithImageAfterLabel.swift */; };
+		C170A94A09C19EBBA4270F4030841525 /* Segmentio.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE8A0037779BF6F56E3BCE792C5DCB7C /* Segmentio.bundle */; };
+		C559340F9A80C8ECD80ACE57E010293F /* SegmentioCellWithImageOverLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9FC7DEE28B620696AEE817A0861685 /* SegmentioCellWithImageOverLabel.swift */; };
+		C641C9AE07225719CD9391E0817FE495 /* BadgeWithCounterViewBigSized.xib in Resources */ = {isa = PBXBuildFile; fileRef = 126547E310D4BACF2C48971BEE068102 /* BadgeWithCounterViewBigSized.xib */; };
+		CA2E0459708311C650E165905688151A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		CDD56E49218F0D78005A6125AA1B6FD5 /* BadgeWithCounterViewStandardSized.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED2A38A2C38807FF69B8631FB7080E5C /* BadgeWithCounterViewStandardSized.xib */; };
+		D423CA5368DBB41FA69CADB51D77DF20 /* Segmentio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F7DDCE845663882D73BB86F5A1AA67D /* Segmentio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECB9D707FAC131F9AC93E28C98DB9B1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B8A375A6F00239BC5086C14F967AE5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56D712679C3860EA2DE5C0B13D494936;
+			remoteInfo = Segmentio;
+		};
+		D9CDB2EFC5B792B517582B6D1B93FEC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA4414DDA868119DA6BC9437173C8C3D;
+			remoteInfo = "Segmentio-Segmentio";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0454DFED7B4C08C1D9D0C17BA2C24107 /* Pods-WunderfullTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WunderfullTests-frameworks.sh"; sourceTree = "<group>"; };
+		0E169A71C8D4AE952FBA794B6DB1B4DA /* Pods-WunderfullTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WunderfullTests.debug.xcconfig"; sourceTree = "<group>"; };
+		10DEFD0DE380031F5EA0AAB2989FE092 /* RoundImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoundImageView.swift; path = Segmentio/Source/Extensions/RoundImageView.swift; sourceTree = "<group>"; };
+		126547E310D4BACF2C48971BEE068102 /* BadgeWithCounterViewBigSized.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = BadgeWithCounterViewBigSized.xib; path = Segmentio/Source/Badge/Views/BadgeWithCounterViewBigSized.xib; sourceTree = "<group>"; };
+		147451DA47D67BD9EA65C5751AFCD521 /* Pods-Wunderfull-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Wunderfull-dummy.m"; sourceTree = "<group>"; };
+		1FA39678FE99EAB198FA0EE9DB8D3816 /* Segmentio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Segmentio.swift; path = Segmentio/Source/Segmentio.swift; sourceTree = "<group>"; };
+		20DB878EFAED98251244A304C308DE3C /* BadgeWithCounterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BadgeWithCounterView.swift; path = Segmentio/Source/Badge/Views/BadgeWithCounterView.swift; sourceTree = "<group>"; };
+		28EB4A6E25C63B42797C0364CCCF0047 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BD161580A517EB29441C837F76421F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E606DA645CC2D215401A36045A27BCE /* Pods-WunderfullTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WunderfullTests-umbrella.h"; sourceTree = "<group>"; };
+		34104139371FB419BCE4270CEC2844BB /* SegmentioCellWithImageBeforeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioCellWithImageBeforeLabel.swift; path = Segmentio/Source/Cells/SegmentioCellWithImageBeforeLabel.swift; sourceTree = "<group>"; };
+		38012DCFAA02439BDB0B542B133B060D /* Pods-Wunderfull-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Wunderfull-umbrella.h"; sourceTree = "<group>"; };
+		51E18D765788E917F556AACD09C0C615 /* Pods-WunderfullTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WunderfullTests.release.xcconfig"; sourceTree = "<group>"; };
+		53EEE55722E51A7452501D318A88C9C4 /* BadgeViewPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BadgeViewPresenter.swift; path = Segmentio/Source/Badge/BadgeViewPresenter.swift; sourceTree = "<group>"; };
+		587A45558D039A2F31A1681226F1AAF4 /* Pods-WunderfullTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WunderfullTests-dummy.m"; sourceTree = "<group>"; };
+		5B9FC7DEE28B620696AEE817A0861685 /* SegmentioCellWithImageOverLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioCellWithImageOverLabel.swift; path = Segmentio/Source/Cells/SegmentioCellWithImageOverLabel.swift; sourceTree = "<group>"; };
+		5C4CD7463DAF8A1FE2526B31D4144A3C /* SegmentioOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioOptions.swift; path = Segmentio/Source/SegmentioOptions.swift; sourceTree = "<group>"; };
+		5F7DDCE845663882D73BB86F5A1AA67D /* Segmentio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Segmentio-umbrella.h"; sourceTree = "<group>"; };
+		64A8E4187A2BC493B9EB1D2F6677F642 /* Segmentio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Segmentio.modulemap; sourceTree = "<group>"; };
+		758A0AE0EA86AEB83E696392879B47E8 /* Pods-Wunderfull-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Wunderfull-acknowledgements.markdown"; sourceTree = "<group>"; };
+		76570F873B6F353902033D7ACC66588D /* Pods_WunderfullTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WunderfullTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9A2CBD5D194F3481D9629E22BEB416 /* ResourceBundle-Segmentio-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Segmentio-Info.plist"; sourceTree = "<group>"; };
+		8F0D8AA38AD25F5DE798FCF381D5783B /* Pods-WunderfullTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WunderfullTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		937E62D314FFDFA13790558E6DA8C324 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		957462F291EE71DF65FDD08ABBF91F80 /* SegmentioCellWithLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioCellWithLabel.swift; path = Segmentio/Source/Cells/SegmentioCellWithLabel.swift; sourceTree = "<group>"; };
+		9B0DA5167506E0D8EFC4A8513709D04A /* SegmentioCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioCell.swift; path = Segmentio/Source/Cells/SegmentioCell.swift; sourceTree = "<group>"; };
+		A639C55DA94B376FCF1DE2D6FC16C82A /* Segmentio.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Segmentio.xcconfig; sourceTree = "<group>"; };
+		A6421BEF277E5F0B663CE85CBA4DB2BE /* UIView+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Appearance.swift"; path = "Segmentio/Source/Extensions/UIView+Appearance.swift"; sourceTree = "<group>"; };
+		A685F2C0FAC108E0C87B149BB30C99CC /* Pods-Wunderfull.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Wunderfull.debug.xcconfig"; sourceTree = "<group>"; };
+		A77591B47AB327524F82E23E5D54E4BA /* Segmentio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Segmentio-dummy.m"; sourceTree = "<group>"; };
+		A7768A6143D47EE2D632CB24B545973D /* SegmentioCellWithImageUnderLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioCellWithImageUnderLabel.swift; path = Segmentio/Source/Cells/SegmentioCellWithImageUnderLabel.swift; sourceTree = "<group>"; };
+		A9ED8A240474CAABEBBC2B067530250D /* Segmentio-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Segmentio-prefix.pch"; sourceTree = "<group>"; };
+		AE8A0037779BF6F56E3BCE792C5DCB7C /* Segmentio.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Segmentio.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B41CD4C5D31027DB18F9536A4284EECA /* Pods-Wunderfull.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Wunderfull.release.xcconfig"; sourceTree = "<group>"; };
+		B4D79F5559DD2443B9109D70903A50B1 /* Pods-Wunderfull-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Wunderfull-acknowledgements.plist"; sourceTree = "<group>"; };
+		CCD2ADF30009C33C4B1B9025FF16B1E7 /* Pods-WunderfullTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WunderfullTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE50C4CE058E3DABA4E4557D8115A844 /* SegmentioCellWithImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioCellWithImage.swift; path = Segmentio/Source/Cells/SegmentioCellWithImage.swift; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF976E7B0B51ECDB1B61AA37C6C0DE82 /* Pods-Wunderfull-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Wunderfull-resources.sh"; sourceTree = "<group>"; };
+		D005694CD339E66D9E9424D5C5B6CAB8 /* Pods-Wunderfull-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Wunderfull-frameworks.sh"; sourceTree = "<group>"; };
+		D253914D37CEB342ED08749799D57682 /* Pods-WunderfullTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WunderfullTests-resources.sh"; sourceTree = "<group>"; };
+		D5C7BAE0D7C0945C15C1DEC2DEAC495D /* Segmentio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Segmentio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E242470E15F7E821A55555774A93A693 /* Pods_Wunderfull.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wunderfull.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9085E0C8C00F1E2BFB2714DAC8DF20 /* Pods-Wunderfull.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Wunderfull.modulemap"; sourceTree = "<group>"; };
+		EC90DE7AE06E6D52B519B268F03BDA2E /* Pods-WunderfullTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WunderfullTests.modulemap"; sourceTree = "<group>"; };
+		ED2A38A2C38807FF69B8631FB7080E5C /* BadgeWithCounterViewStandardSized.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = BadgeWithCounterViewStandardSized.xib; path = Segmentio/Source/Badge/Views/BadgeWithCounterViewStandardSized.xib; sourceTree = "<group>"; };
+		F9B62DB24F11081012FE3508CA869A6B /* SegmentioCellWithImageAfterLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentioCellWithImageAfterLabel.swift; path = Segmentio/Source/Cells/SegmentioCellWithImageAfterLabel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		062BE393DCE04474744E5FC0D15276DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB9D707FAC131F9AC93E28C98DB9B1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D021257D463FD8C32141E7C6829E6B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7EB8739185904507B4E3FBDD434EB9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28B74E39B2A19C863CA0BAC7E8C45C02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2E0459708311C650E165905688151A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06CCEEA69D38732CF673BFCE7DC2A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25B276DDAACBCA9B2BFC69C49A2ACCB1 /* Pods-WunderfullTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BD161580A517EB29441C837F76421F6 /* Info.plist */,
+				EC90DE7AE06E6D52B519B268F03BDA2E /* Pods-WunderfullTests.modulemap */,
+				CCD2ADF30009C33C4B1B9025FF16B1E7 /* Pods-WunderfullTests-acknowledgements.markdown */,
+				8F0D8AA38AD25F5DE798FCF381D5783B /* Pods-WunderfullTests-acknowledgements.plist */,
+				587A45558D039A2F31A1681226F1AAF4 /* Pods-WunderfullTests-dummy.m */,
+				0454DFED7B4C08C1D9D0C17BA2C24107 /* Pods-WunderfullTests-frameworks.sh */,
+				D253914D37CEB342ED08749799D57682 /* Pods-WunderfullTests-resources.sh */,
+				2E606DA645CC2D215401A36045A27BCE /* Pods-WunderfullTests-umbrella.h */,
+				0E169A71C8D4AE952FBA794B6DB1B4DA /* Pods-WunderfullTests.debug.xcconfig */,
+				51E18D765788E917F556AACD09C0C615 /* Pods-WunderfullTests.release.xcconfig */,
+			);
+			name = "Pods-WunderfullTests";
+			path = "Target Support Files/Pods-WunderfullTests";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		55C8ED58DB93C350F445DD960CD9821A /* Segmentio */ = {
+			isa = PBXGroup;
+			children = (
+				53EEE55722E51A7452501D318A88C9C4 /* BadgeViewPresenter.swift */,
+				20DB878EFAED98251244A304C308DE3C /* BadgeWithCounterView.swift */,
+				10DEFD0DE380031F5EA0AAB2989FE092 /* RoundImageView.swift */,
+				1FA39678FE99EAB198FA0EE9DB8D3816 /* Segmentio.swift */,
+				9B0DA5167506E0D8EFC4A8513709D04A /* SegmentioCell.swift */,
+				CE50C4CE058E3DABA4E4557D8115A844 /* SegmentioCellWithImage.swift */,
+				F9B62DB24F11081012FE3508CA869A6B /* SegmentioCellWithImageAfterLabel.swift */,
+				34104139371FB419BCE4270CEC2844BB /* SegmentioCellWithImageBeforeLabel.swift */,
+				5B9FC7DEE28B620696AEE817A0861685 /* SegmentioCellWithImageOverLabel.swift */,
+				A7768A6143D47EE2D632CB24B545973D /* SegmentioCellWithImageUnderLabel.swift */,
+				957462F291EE71DF65FDD08ABBF91F80 /* SegmentioCellWithLabel.swift */,
+				5C4CD7463DAF8A1FE2526B31D4144A3C /* SegmentioOptions.swift */,
+				A6421BEF277E5F0B663CE85CBA4DB2BE /* UIView+Appearance.swift */,
+				C5A36BC6E5A8244CC6B30390B2B39EC3 /* Resources */,
+				66FAAB665F392403092DA4AC1B4717C6 /* Support Files */,
+			);
+			path = Segmentio;
+			sourceTree = "<group>";
+		};
+		609EB78774A51519E3A6041F5C2886E0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				647A78DE1E0BF72C1A791612B7635921 /* Pods-Wunderfull */,
+				25B276DDAACBCA9B2BFC69C49A2ACCB1 /* Pods-WunderfullTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		647A78DE1E0BF72C1A791612B7635921 /* Pods-Wunderfull */ = {
+			isa = PBXGroup;
+			children = (
+				28EB4A6E25C63B42797C0364CCCF0047 /* Info.plist */,
+				EB9085E0C8C00F1E2BFB2714DAC8DF20 /* Pods-Wunderfull.modulemap */,
+				758A0AE0EA86AEB83E696392879B47E8 /* Pods-Wunderfull-acknowledgements.markdown */,
+				B4D79F5559DD2443B9109D70903A50B1 /* Pods-Wunderfull-acknowledgements.plist */,
+				147451DA47D67BD9EA65C5751AFCD521 /* Pods-Wunderfull-dummy.m */,
+				D005694CD339E66D9E9424D5C5B6CAB8 /* Pods-Wunderfull-frameworks.sh */,
+				CF976E7B0B51ECDB1B61AA37C6C0DE82 /* Pods-Wunderfull-resources.sh */,
+				38012DCFAA02439BDB0B542B133B060D /* Pods-Wunderfull-umbrella.h */,
+				A685F2C0FAC108E0C87B149BB30C99CC /* Pods-Wunderfull.debug.xcconfig */,
+				B41CD4C5D31027DB18F9536A4284EECA /* Pods-Wunderfull.release.xcconfig */,
+			);
+			name = "Pods-Wunderfull";
+			path = "Target Support Files/Pods-Wunderfull";
+			sourceTree = "<group>";
+		};
+		66FAAB665F392403092DA4AC1B4717C6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				937E62D314FFDFA13790558E6DA8C324 /* Info.plist */,
+				8E9A2CBD5D194F3481D9629E22BEB416 /* ResourceBundle-Segmentio-Info.plist */,
+				64A8E4187A2BC493B9EB1D2F6677F642 /* Segmentio.modulemap */,
+				A639C55DA94B376FCF1DE2D6FC16C82A /* Segmentio.xcconfig */,
+				A77591B47AB327524F82E23E5D54E4BA /* Segmentio-dummy.m */,
+				A9ED8A240474CAABEBBC2B067530250D /* Segmentio-prefix.pch */,
+				5F7DDCE845663882D73BB86F5A1AA67D /* Segmentio-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Segmentio";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CBFEC77D6C92CE3155565ABE01231C5E /* Pods */,
+				A26531DC68D17041B9086151D1B74CDF /* Products */,
+				609EB78774A51519E3A6041F5C2886E0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A26531DC68D17041B9086151D1B74CDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E242470E15F7E821A55555774A93A693 /* Pods_Wunderfull.framework */,
+				76570F873B6F353902033D7ACC66588D /* Pods_WunderfullTests.framework */,
+				AE8A0037779BF6F56E3BCE792C5DCB7C /* Segmentio.bundle */,
+				D5C7BAE0D7C0945C15C1DEC2DEAC495D /* Segmentio.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5A36BC6E5A8244CC6B30390B2B39EC3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				126547E310D4BACF2C48971BEE068102 /* BadgeWithCounterViewBigSized.xib */,
+				ED2A38A2C38807FF69B8631FB7080E5C /* BadgeWithCounterViewStandardSized.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CBFEC77D6C92CE3155565ABE01231C5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55C8ED58DB93C350F445DD960CD9821A /* Segmentio */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06F7625B27BCFB4E115C0F443EE825B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D423CA5368DBB41FA69CADB51D77DF20 /* Segmentio-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCCFEEAE6A121EFAD32478CC3327B528 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD3B0F376A10A998A1106172EC18630 /* Pods-Wunderfull-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D067529FB53F6774A5554081E137424A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE109BC9150FF0E15CA82F2D481FAFA /* Pods-WunderfullTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2FDDA4A65A634F138DAD049A3E9C71D6 /* Pods-WunderfullTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2581580971C0E9BCEAB5EDA207600678 /* Build configuration list for PBXNativeTarget "Pods-WunderfullTests" */;
+			buildPhases = (
+				0347926B4F38DB313C5DAEFA10AD4CD4 /* Sources */,
+				1D021257D463FD8C32141E7C6829E6B0 /* Frameworks */,
+				D067529FB53F6774A5554081E137424A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WunderfullTests";
+			productName = "Pods-WunderfullTests";
+			productReference = 76570F873B6F353902033D7ACC66588D /* Pods_WunderfullTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		56D712679C3860EA2DE5C0B13D494936 /* Segmentio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE84F9A50FE922C2CC1066B38E9AF8B9 /* Build configuration list for PBXNativeTarget "Segmentio" */;
+			buildPhases = (
+				2F46E6EEC19CACC2D69C9E17FEAC85B2 /* Sources */,
+				28B74E39B2A19C863CA0BAC7E8C45C02 /* Frameworks */,
+				AC8673C2C0DAA7B23DD84BE94DF08408 /* Resources */,
+				06F7625B27BCFB4E115C0F443EE825B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43EEBBF82A8EB9A81B27792A5088A31E /* PBXTargetDependency */,
+			);
+			name = Segmentio;
+			productName = Segmentio;
+			productReference = D5C7BAE0D7C0945C15C1DEC2DEAC495D /* Segmentio.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA4414DDA868119DA6BC9437173C8C3D /* Segmentio-Segmentio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10FBE8F3CEA7B42F81F89AC04C4E1B06 /* Build configuration list for PBXNativeTarget "Segmentio-Segmentio" */;
+			buildPhases = (
+				7FD30FB65B87787EBA5E807FF05804B9 /* Sources */,
+				B06CCEEA69D38732CF673BFCE7DC2A43 /* Frameworks */,
+				65014A3346FF9FAC3BD02ED4FE219FE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Segmentio-Segmentio";
+			productName = "Segmentio-Segmentio";
+			productReference = AE8A0037779BF6F56E3BCE792C5DCB7C /* Segmentio.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		FD6818C417F55D584DF114A2C279598B /* Pods-Wunderfull */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B954B89D8553D383988546B143C6E266 /* Build configuration list for PBXNativeTarget "Pods-Wunderfull" */;
+			buildPhases = (
+				DAF45DAF33D0CBB63506174969F2E66F /* Sources */,
+				062BE393DCE04474744E5FC0D15276DB /* Frameworks */,
+				CCCFEEAE6A121EFAD32478CC3327B528 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				866FBFC2C11CB37608E445456CB1900F /* PBXTargetDependency */,
+			);
+			name = "Pods-Wunderfull";
+			productName = "Pods-Wunderfull";
+			productReference = E242470E15F7E821A55555774A93A693 /* Pods_Wunderfull.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A26531DC68D17041B9086151D1B74CDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD6818C417F55D584DF114A2C279598B /* Pods-Wunderfull */,
+				2FDDA4A65A634F138DAD049A3E9C71D6 /* Pods-WunderfullTests */,
+				56D712679C3860EA2DE5C0B13D494936 /* Segmentio */,
+				BA4414DDA868119DA6BC9437173C8C3D /* Segmentio-Segmentio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65014A3346FF9FAC3BD02ED4FE219FE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F3B5620D856CFDB8ABD7200ADD5D834 /* BadgeWithCounterViewBigSized.xib in Resources */,
+				6C31EFFE4EA63CCD6F86F3482F00FAD0 /* BadgeWithCounterViewStandardSized.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC8673C2C0DAA7B23DD84BE94DF08408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C641C9AE07225719CD9391E0817FE495 /* BadgeWithCounterViewBigSized.xib in Resources */,
+				CDD56E49218F0D78005A6125AA1B6FD5 /* BadgeWithCounterViewStandardSized.xib in Resources */,
+				C170A94A09C19EBBA4270F4030841525 /* Segmentio.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0347926B4F38DB313C5DAEFA10AD4CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43243E425D32D3F84E1FC0235C7D39B0 /* Pods-WunderfullTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F46E6EEC19CACC2D69C9E17FEAC85B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75187FA120665C6E49E3AD95198836E /* BadgeViewPresenter.swift in Sources */,
+				86345515ED14955A89B29DA6E2A77A2D /* BadgeWithCounterView.swift in Sources */,
+				0AEDAAC59A424BE8E8124DE1E5996D4B /* RoundImageView.swift in Sources */,
+				9FA3B1EC714B48B43DEA0286B086D939 /* Segmentio-dummy.m in Sources */,
+				155F7706C8BE56195146DE5EEF76D09D /* Segmentio.swift in Sources */,
+				4C7DFF8DC09E08A4960C06E65EBBD0AD /* SegmentioCell.swift in Sources */,
+				B0BBC6C3FCDCE0E42336AABDFBA68CAD /* SegmentioCellWithImage.swift in Sources */,
+				B895FE1D36D0856A28AF43266E32D0CE /* SegmentioCellWithImageAfterLabel.swift in Sources */,
+				ABAFF160B2C0A072438C9A365F4C2E64 /* SegmentioCellWithImageBeforeLabel.swift in Sources */,
+				C559340F9A80C8ECD80ACE57E010293F /* SegmentioCellWithImageOverLabel.swift in Sources */,
+				22BC3D16611E41BE33AAAFDB4F1D08C8 /* SegmentioCellWithImageUnderLabel.swift in Sources */,
+				A1CFDD9BF2DA059DD9F0A0445CF0B377 /* SegmentioCellWithLabel.swift in Sources */,
+				77E28CC25F8018E1020D43ACDD29C8BF /* SegmentioOptions.swift in Sources */,
+				64C03B87DB69925D58C249FDA30F0036 /* UIView+Appearance.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FD30FB65B87787EBA5E807FF05804B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF45DAF33D0CBB63506174969F2E66F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513A49CC1A4F9448056280EE6B02A38A /* Pods-Wunderfull-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43EEBBF82A8EB9A81B27792A5088A31E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Segmentio-Segmentio";
+			target = BA4414DDA868119DA6BC9437173C8C3D /* Segmentio-Segmentio */;
+			targetProxy = D9CDB2EFC5B792B517582B6D1B93FEC9 /* PBXContainerItemProxy */;
+		};
+		866FBFC2C11CB37608E445456CB1900F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Segmentio;
+			target = 56D712679C3860EA2DE5C0B13D494936 /* Segmentio */;
+			targetProxy = 4B8A375A6F00239BC5086C14F967AE5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		36B34EEE90F8B880FE6C630168E23223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B41CD4C5D31027DB18F9536A4284EECA /* Pods-Wunderfull.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Wunderfull/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Wunderfull/Pods-Wunderfull.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Wunderfull;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5267B66E43071832CA0EB3B8D443994C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51E18D765788E917F556AACD09C0C615 /* Pods-WunderfullTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WunderfullTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WunderfullTests/Pods-WunderfullTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WunderfullTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		622FE1B9DA87CCE917285EB1B77D5610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A639C55DA94B376FCF1DE2D6FC16C82A /* Segmentio.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Segmentio/Segmentio-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Segmentio/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Segmentio/Segmentio.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Segmentio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7777407B4EB5765484A8DCD44A2CEC9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A639C55DA94B376FCF1DE2D6FC16C82A /* Segmentio.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Segmentio";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Segmentio/ResourceBundle-Segmentio-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Segmentio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8E14EA578E69DE6D9CCBC70D5DFBFCB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E169A71C8D4AE952FBA794B6DB1B4DA /* Pods-WunderfullTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WunderfullTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WunderfullTests/Pods-WunderfullTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WunderfullTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A22D277582B9E0CF8FABB7533F355239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A685F2C0FAC108E0C87B149BB30C99CC /* Pods-Wunderfull.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Wunderfull/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Wunderfull/Pods-Wunderfull.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Wunderfull;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CC18BEAC0D09FFF2667B71D031B75CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A639C55DA94B376FCF1DE2D6FC16C82A /* Segmentio.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Segmentio";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Segmentio/ResourceBundle-Segmentio-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Segmentio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		ED4FC68AB2A4E06C718CFF338F6F156B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0F2501C53C8124604CD38773459870B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A639C55DA94B376FCF1DE2D6FC16C82A /* Segmentio.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Segmentio/Segmentio-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Segmentio/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Segmentio/Segmentio.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Segmentio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10FBE8F3CEA7B42F81F89AC04C4E1B06 /* Build configuration list for PBXNativeTarget "Segmentio-Segmentio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC18BEAC0D09FFF2667B71D031B75CAC /* Debug */,
+				7777407B4EB5765484A8DCD44A2CEC9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2581580971C0E9BCEAB5EDA207600678 /* Build configuration list for PBXNativeTarget "Pods-WunderfullTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E14EA578E69DE6D9CCBC70D5DFBFCB1 /* Debug */,
+				5267B66E43071832CA0EB3B8D443994C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */,
+				ED4FC68AB2A4E06C718CFF338F6F156B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B954B89D8553D383988546B143C6E266 /* Build configuration list for PBXNativeTarget "Pods-Wunderfull" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22D277582B9E0CF8FABB7533F355239 /* Debug */,
+				36B34EEE90F8B880FE6C630168E23223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE84F9A50FE922C2CC1066B38E9AF8B9 /* Build configuration list for PBXNativeTarget "Segmentio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				622FE1B9DA87CCE917285EB1B77D5610 /* Debug */,
+				F0F2501C53C8124604CD38773459870B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

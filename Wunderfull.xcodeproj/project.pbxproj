@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E2FD71BF7B6A8188F19883C /* Pods_WunderfullTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B30219CA1F76DDC84FE3A84 /* Pods_WunderfullTests.framework */; };
+		7CEB15AA462AE157E9865593 /* Pods_Wunderfull.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E18B485C0DF43322A6102C6 /* Pods_Wunderfull.framework */; };
 		A0E5A21B1DE8E93300ADD9C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5A21A1DE8E93300ADD9C5 /* AppDelegate.swift */; };
-		A0E5A21D1DE8E93300ADD9C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5A21C1DE8E93300ADD9C5 /* ViewController.swift */; };
 		A0E5A2201DE8E93300ADD9C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E5A21E1DE8E93300ADD9C5 /* Main.storyboard */; };
 		A0E5A2221DE8E93300ADD9C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0E5A2211DE8E93300ADD9C5 /* Assets.xcassets */; };
 		A0E5A2251DE8E93300ADD9C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E5A2231DE8E93300ADD9C5 /* LaunchScreen.storyboard */; };
 		A0E5A2301DE8E93300ADD9C5 /* WunderfullTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5A22F1DE8E93300ADD9C5 /* WunderfullTests.swift */; };
+		A0E5A2401DE8EF4400ADD9C5 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5A23F1DE8EF4400ADD9C5 /* TabViewController.swift */; };
+		A0E5A2421DE8FC0200ADD9C5 /* TabViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5A2411DE8FC0200ADD9C5 /* TabViewBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +29,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E18B485C0DF43322A6102C6 /* Pods_Wunderfull.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wunderfull.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4C053E2D0B45726AD9723F /* Pods-Wunderfull.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wunderfull.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wunderfull/Pods-Wunderfull.release.xcconfig"; sourceTree = "<group>"; };
+		55202F898D8843763E9F6DE2 /* Pods-WunderfullTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WunderfullTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WunderfullTests/Pods-WunderfullTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B30219CA1F76DDC84FE3A84 /* Pods_WunderfullTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WunderfullTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		924CB25409AB96B145E7F70E /* Pods-Wunderfull.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wunderfull.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wunderfull/Pods-Wunderfull.debug.xcconfig"; sourceTree = "<group>"; };
+		9C6FAF66C9E18E761A452817 /* Pods-WunderfullTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WunderfullTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WunderfullTests/Pods-WunderfullTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A0E5A2171DE8E93300ADD9C5 /* Wunderfull.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wunderfull.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E5A21A1DE8E93300ADD9C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A0E5A21C1DE8E93300ADD9C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A0E5A21F1DE8E93300ADD9C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0E5A2211DE8E93300ADD9C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0E5A2241DE8E93300ADD9C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +44,10 @@
 		A0E5A22B1DE8E93300ADD9C5 /* WunderfullTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WunderfullTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E5A22F1DE8E93300ADD9C5 /* WunderfullTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WunderfullTests.swift; sourceTree = "<group>"; };
 		A0E5A2311DE8E93300ADD9C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0E5A23A1DE8E98500ADD9C5 /* Wunderfull-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wunderfull-Bridging-Header.h"; sourceTree = "<group>"; };
+		A0E5A23E1DE8E9CB00ADD9C5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A0E5A23F1DE8EF4400ADD9C5 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		A0E5A2411DE8FC0200ADD9C5 /* TabViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CEB15AA462AE157E9865593 /* Pods_Wunderfull.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +63,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E2FD71BF7B6A8188F19883C /* Pods_WunderfullTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B801858B113409C919961C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				924CB25409AB96B145E7F70E /* Pods-Wunderfull.debug.xcconfig */,
+				3B4C053E2D0B45726AD9723F /* Pods-Wunderfull.release.xcconfig */,
+				9C6FAF66C9E18E761A452817 /* Pods-WunderfullTests.debug.xcconfig */,
+				55202F898D8843763E9F6DE2 /* Pods-WunderfullTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A0E5A20E1DE8E93300ADD9C5 = {
 			isa = PBXGroup;
 			children = (
+				A0E5A23E1DE8E9CB00ADD9C5 /* README.md */,
 				A0E5A2191DE8E93300ADD9C5 /* Wunderfull */,
 				A0E5A22E1DE8E93300ADD9C5 /* WunderfullTests */,
 				A0E5A2181DE8E93300ADD9C5 /* Products */,
+				8B801858B113409C919961C0 /* Pods */,
+				BFCCD263A76C38B755A7604B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,8 +105,10 @@
 		A0E5A2191DE8E93300ADD9C5 /* Wunderfull */ = {
 			isa = PBXGroup;
 			children = (
+				A0E5A23A1DE8E98500ADD9C5 /* Wunderfull-Bridging-Header.h */,
 				A0E5A21A1DE8E93300ADD9C5 /* AppDelegate.swift */,
-				A0E5A21C1DE8E93300ADD9C5 /* ViewController.swift */,
+				A0E5A23F1DE8EF4400ADD9C5 /* TabViewController.swift */,
+				A0E5A2411DE8FC0200ADD9C5 /* TabViewBuilder.swift */,
 				A0E5A21E1DE8E93300ADD9C5 /* Main.storyboard */,
 				A0E5A2211DE8E93300ADD9C5 /* Assets.xcassets */,
 				A0E5A2231DE8E93300ADD9C5 /* LaunchScreen.storyboard */,
@@ -96,6 +126,15 @@
 			path = WunderfullTests;
 			sourceTree = "<group>";
 		};
+		BFCCD263A76C38B755A7604B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E18B485C0DF43322A6102C6 /* Pods_Wunderfull.framework */,
+				6B30219CA1F76DDC84FE3A84 /* Pods_WunderfullTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +142,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0E5A2341DE8E93300ADD9C5 /* Build configuration list for PBXNativeTarget "Wunderfull" */;
 			buildPhases = (
+				3343CDFC393F487A2B2BC817 /* [CP] Check Pods Manifest.lock */,
 				A0E5A2131DE8E93300ADD9C5 /* Sources */,
 				A0E5A2141DE8E93300ADD9C5 /* Frameworks */,
 				A0E5A2151DE8E93300ADD9C5 /* Resources */,
+				70AD9DE42F4DA89AC26B48A3 /* [CP] Embed Pods Frameworks */,
+				3267C8255AC8819158160D17 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0E5A2371DE8E93300ADD9C5 /* Build configuration list for PBXNativeTarget "WunderfullTests" */;
 			buildPhases = (
+				6F499168098B2C562C27257F /* [CP] Check Pods Manifest.lock */,
 				A0E5A2271DE8E93300ADD9C5 /* Sources */,
 				A0E5A2281DE8E93300ADD9C5 /* Frameworks */,
 				A0E5A2291DE8E93300ADD9C5 /* Resources */,
+				F8DB9B774672374C1E84B39D /* [CP] Embed Pods Frameworks */,
+				1600ABF6777578AC348E5788 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,6 +191,7 @@
 				TargetAttributes = {
 					A0E5A2161DE8E93300ADD9C5 = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					A0E5A22A1DE8E93300ADD9C5 = {
@@ -194,12 +240,106 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1600ABF6777578AC348E5788 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WunderfullTests/Pods-WunderfullTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3267C8255AC8819158160D17 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wunderfull/Pods-Wunderfull-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3343CDFC393F487A2B2BC817 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6F499168098B2C562C27257F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70AD9DE42F4DA89AC26B48A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wunderfull/Pods-Wunderfull-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8DB9B774672374C1E84B39D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WunderfullTests/Pods-WunderfullTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A0E5A2131DE8E93300ADD9C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0E5A21D1DE8E93300ADD9C5 /* ViewController.swift in Sources */,
+				A0E5A2401DE8EF4400ADD9C5 /* TabViewController.swift in Sources */,
+				A0E5A2421DE8FC0200ADD9C5 /* TabViewBuilder.swift in Sources */,
 				A0E5A21B1DE8E93300ADD9C5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,30 +475,38 @@
 		};
 		A0E5A2351DE8E93300ADD9C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 924CB25409AB96B145E7F70E /* Pods-Wunderfull.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Wunderfull/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.limfinity.ios.Wunderfull;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wunderfull/Wunderfull-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		A0E5A2361DE8E93300ADD9C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4C053E2D0B45726AD9723F /* Pods-Wunderfull.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Wunderfull/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.limfinity.ios.Wunderfull;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wunderfull/Wunderfull-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		A0E5A2381DE8E93300ADD9C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C6FAF66C9E18E761A452817 /* Pods-WunderfullTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -373,6 +521,7 @@
 		};
 		A0E5A2391DE8E93300ADD9C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55202F898D8843763E9F6DE2 /* Pods-WunderfullTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -404,6 +553,7 @@
 				A0E5A2361DE8E93300ADD9C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0E5A2371DE8E93300ADD9C5 /* Build configuration list for PBXNativeTarget "WunderfullTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +562,7 @@
 				A0E5A2391DE8E93300ADD9C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
