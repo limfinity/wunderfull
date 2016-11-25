@@ -23,13 +23,16 @@ class TabViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Set up the tab view
         setupTabView()
     }
 
     func setupTabView() {
+        // Configure tab view with dedicated builder
         TabViewBuilder.buildTabView(tabView: tabView, style: .onlyLabel)
+        
+        // Handle call back changes from tab view
         tabView.valueDidChange = { tabView, index in
-            print("Selected item: \(index)")
             self.showViewController(withState: ContainerViewState(rawValue: index)!)
         }
         
@@ -38,8 +41,8 @@ class TabViewController: UIViewController {
     }
     
     func showViewController(withState state: ContainerViewState) {
+        // Create view controller depending on state
         let viewController: UIViewController
-        
         switch state {
         case .list:
             viewController = (storyboard?.instantiateViewController(withIdentifier: "LocationList"))!
@@ -47,9 +50,13 @@ class TabViewController: UIViewController {
             viewController = (storyboard?.instantiateViewController(withIdentifier: "LocationMap"))!
         }
         
+        // Add view controller as child view controller
         addViewController(asChildViewController: viewController, toContainerView: containerView)
         
+        // Remove current view controller
         removeViewController(asChildViewController: currentViewController)
+        
+        // Set new current view controller
         currentViewController = viewController
     }
     

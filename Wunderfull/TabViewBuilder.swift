@@ -82,7 +82,7 @@ struct TabViewBuilder {
             type: .bottom,
             ratio: 1,
             height: 6,
-            color: UIColor.orange
+            color: UIColor(red: 156/255.0, green: 201/255.0, blue: 58/255.0, alpha: 1)
         )
     }
     
