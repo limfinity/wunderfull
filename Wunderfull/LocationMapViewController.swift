@@ -8,6 +8,7 @@
 
 import UIKit
 import MapKit
+import RealmSwift
 
 class LocationMapViewController: UIViewController {
     
@@ -30,6 +31,9 @@ class LocationMapViewController: UIViewController {
         }
     }
     
+    /// A realm notification
+    fileprivate var notification: NotificationToken? = nil
+    
     /// All car locations
     fileprivate var locations = realm.getAllLocations()
     
@@ -39,20 +43,27 @@ class LocationMapViewController: UIViewController {
         locationManager = CLLocationManager()
         
         dropPins(onMapView: mapView, forLocations: locations)
+        
+        notification = realm.objects(Location.self).addNotificationBlock { [weak self] (changes: RealmCollectionChange<Results<Location>>) in
+            guard let sSelf = self else { return }
+            sSelf.dropPins(onMapView: sSelf.mapView, forLocations: sSelf.locations)
+        }
+    }
+    
+    deinit {
+        notification?.stop()
     }
     
     func dropPins(onMapView mapView: MKMapView, forLocations locations: [Location]) {
+        // Remove all previous annotations except for the user location annotation
+        mapView.removeAnnotations(mapView.annotations.filter { !($0 is MKUserLocation) })
+        
         locations.forEach { location in
             let pin = MKPointAnnotation()
             pin.coordinate = (location.coordinates?.clLocation.coordinate)!
             pin.title = location.name
             mapView.addAnnotation(pin)
         }
-    }
-
-    @IBAction func centerMap(_ sender: AnyObject) {
-        centered = true
-        center(map: mapView)
     }
     
     func center(map mapView: MKMapView, toLocation location: CLLocation? = nil, animated: Bool = true) {
@@ -100,9 +111,6 @@ extension LocationMapViewController: MKMapViewDelegate {
     
     func mapView(_ mapView: MKMapView, regionWillChangeAnimated animated: Bool) {
         centered = !userInteractionForcedUpdateOn(mapView: mapView)
-    }
-    
-    func mapView(_ mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
     }
     
     func mapView(_ mapView: MKMapView, didUpdate userLocation: MKUserLocation) {

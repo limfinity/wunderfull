@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RealmSwift
 
 class LocationListViewController: UIViewController {
     
@@ -17,7 +18,24 @@ class LocationListViewController: UIViewController {
         }
     }
     
+    /// A realm notification
+    fileprivate var notification: NotificationToken? = nil
+    
+    /// All car locations
     fileprivate var locations = realm.getAllLocations()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        notification = realm.objects(Location.self).addNotificationBlock { [weak self] (changes: RealmCollectionChange<Results<Location>>) in
+            guard let tableView = self?.tableView else { return }
+            tableView.reloadData()
+        }
+    }
+    
+    deinit {
+        notification?.stop()
+    }
     
 }
 
