@@ -22,6 +22,7 @@
 		A0E5A24A1DE905B500ADD9C5 /* WunderAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5A2491DE905B500ADD9C5 /* WunderAPI.swift */; };
 		A0E5A24C1DE9068F00ADD9C5 /* LocationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5A24B1DE9068F00ADD9C5 /* LocationListViewController.swift */; };
 		A0E5A24E1DE916A900ADD9C5 /* LocationListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5A24D1DE916A900ADD9C5 /* LocationListTableViewCell.swift */; };
+		A0E5A2501DE91B0500ADD9C5 /* LocationMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5A24F1DE91B0500ADD9C5 /* LocationMapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		A0E5A2491DE905B500ADD9C5 /* WunderAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WunderAPI.swift; sourceTree = "<group>"; };
 		A0E5A24B1DE9068F00ADD9C5 /* LocationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationListViewController.swift; sourceTree = "<group>"; };
 		A0E5A24D1DE916A900ADD9C5 /* LocationListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationListTableViewCell.swift; sourceTree = "<group>"; };
+		A0E5A24F1DE91B0500ADD9C5 /* LocationMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationMapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				A0E5A23F1DE8EF4400ADD9C5 /* TabViewController.swift */,
 				A0E5A24B1DE9068F00ADD9C5 /* LocationListViewController.swift */,
 				A0E5A24D1DE916A900ADD9C5 /* LocationListTableViewCell.swift */,
+				A0E5A24F1DE91B0500ADD9C5 /* LocationMapViewController.swift */,
 				A0E5A2411DE8FC0200ADD9C5 /* TabViewBuilder.swift */,
 				A0E5A21E1DE8E93300ADD9C5 /* Main.storyboard */,
 				A0E5A2211DE8E93300ADD9C5 /* Assets.xcassets */,
@@ -360,6 +363,7 @@
 				A0E5A2401DE8EF4400ADD9C5 /* TabViewController.swift in Sources */,
 				A0E5A2441DE9034C00ADD9C5 /* RealmStore.swift in Sources */,
 				A0E5A2461DE903D600ADD9C5 /* Location.swift in Sources */,
+				A0E5A2501DE91B0500ADD9C5 /* LocationMapViewController.swift in Sources */,
 				A0E5A2481DE9058500ADD9C5 /* Coordinates.swift in Sources */,
 				A0E5A2421DE8FC0200ADD9C5 /* TabViewBuilder.swift in Sources */,
 				A0E5A24C1DE9068F00ADD9C5 /* LocationListViewController.swift in Sources */,

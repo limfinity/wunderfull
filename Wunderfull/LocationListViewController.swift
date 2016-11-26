@@ -19,14 +19,6 @@ class LocationListViewController: UIViewController {
     
     fileprivate var locations = realm.getAllLocations()
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        print("Location cound on load \(locations.count)")
-        
-        WunderAPI.getLocations()
-    }
-    
 }
 
 extension LocationListViewController: UITableViewDelegate, UITableViewDataSource {

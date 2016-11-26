@@ -12,8 +12,8 @@ import CoreLocation
 
 class Coordinates: Object {
     
-    dynamic var latitude: Double = 0.0
     dynamic var longitude: Double = 0.0
+    dynamic var latitude: Double = 0.0
     dynamic var foo = 0
     
     var clLocation: CLLocation {

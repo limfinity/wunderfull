@@ -18,6 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // For this usecase delete the old database when migration is needed
         Realm.Configuration.defaultConfiguration.deleteRealmIfMigrationNeeded = true
         
+        // Update locations with data from the api
+        WunderAPI.getLocations()
+        
         return true
     }
     

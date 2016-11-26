@@ -141,7 +141,7 @@
         <!--LocationMap-->
         <scene sceneID="eGF-oo-ieh">
             <objects>
-                <viewController storyboardIdentifier="LocationMap" title="LocationMap" id="lEI-qi-gB5" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LocationMap" title="LocationMap" id="lEI-qi-gB5" customClass="LocationMapViewController" customModule="Wunderfull" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IV7-6B-bDa"/>
                         <viewControllerLayoutGuide type="bottom" id="hmO-eE-Wqv"/>
@@ -150,26 +150,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MAP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebh-xG-SnR">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" pitchEnabled="NO" showsUserLocation="YES" showsBuildings="NO" showsCompass="NO" showsPointsOfInterest="NO" showsScale="YES" showsTraffic="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mgh-Kj-Khz">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="35"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <color key="tintColor" red="0.61176470589999998" green="0.78823529410000004" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="ebh-xG-SnR" secondAttribute="trailing" id="64g-N9-Mzu"/>
-                            <constraint firstItem="ebh-xG-SnR" firstAttribute="top" secondItem="QHk-Hi-XOD" secondAttribute="top" id="IlE-b5-HKn"/>
-                            <constraint firstItem="ebh-xG-SnR" firstAttribute="leading" secondItem="QHk-Hi-XOD" secondAttribute="leading" id="Mnh-51-4xf"/>
-                            <constraint firstItem="hmO-eE-Wqv" firstAttribute="top" secondItem="ebh-xG-SnR" secondAttribute="bottom" id="QkD-QS-jbQ"/>
+                            <constraint firstItem="Mgh-Kj-Khz" firstAttribute="leading" secondItem="QHk-Hi-XOD" secondAttribute="leading" id="N7F-qc-DJJ"/>
+                            <constraint firstItem="Mgh-Kj-Khz" firstAttribute="top" secondItem="QHk-Hi-XOD" secondAttribute="top" id="Re6-eQ-ogn"/>
+                            <constraint firstAttribute="trailing" secondItem="Mgh-Kj-Khz" secondAttribute="trailing" id="j4t-eh-CNH"/>
+                            <constraint firstItem="hmO-eE-Wqv" firstAttribute="top" secondItem="Mgh-Kj-Khz" secondAttribute="bottom" id="w8m-Tq-g89"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="Mgh-Kj-Khz" id="RJa-8l-mwh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EYc-fR-f1G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1201" y="556"/>
+            <point key="canvasLocation" x="1200.8" y="555.47226386806597"/>
         </scene>
     </scenes>
 </document>
