@@ -1,12 +1,23 @@
 PODS:
+  - Alamofire (4.0.1)
+  - Realm (2.0.2):
+    - Realm/Headers (= 2.0.2)
+  - Realm/Headers (2.0.2)
+  - RealmSwift (2.0.2):
+    - Realm (= 2.0.2)
   - Segmentio (2.0)
 
 DEPENDENCIES:
+  - Alamofire
+  - RealmSwift
   - Segmentio
 
 SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  Realm: 0f5a194af0b7e6158b83db41b4ee1a00be7ddf1a
+  RealmSwift: 0eb5070d851cba7c66e841ca756d83609dc78bc8
   Segmentio: 3f55a720e214e6d5ec1b205663228691bc3bb043
 
-PODFILE CHECKSUM: 9f7d13660f701e28ecbc066c1f42a80ad9b8588d
+PODFILE CHECKSUM: 089391eb19c172e13619e6ebb7311785bbbacc38
 
 COCOAPODS: 1.1.0.rc.2

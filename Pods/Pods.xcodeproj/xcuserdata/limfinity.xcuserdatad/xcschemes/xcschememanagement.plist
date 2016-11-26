@@ -4,12 +4,27 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Wunderfull.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-WunderfullTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Realm.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RealmSwift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,17 +47,32 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>56D712679C3860EA2DE5C0B13D494936</key>
+		<key>3E4FC07FCDC22043653AA42988220AB7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BA4414DDA868119DA6BC9437173C8C3D</key>
+		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FD6818C417F55D584DF114A2C279598B</key>
+		<key>8542EAF1144E9C39B6CE0C78C2D7F0D0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B720A3D37FEF770B0EFF65B413EEA8BB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CC5C1A680B1CCCDC1126B710522ECC03</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E6C0499B30404462076818259DDACD72</key>
 		<dict>
 			<key>primary</key>
 			<true/>

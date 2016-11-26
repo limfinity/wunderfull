@@ -5,7 +5,9 @@ target 'Wunderfull' do
     
   use_frameworks!
 
-  pod 'Segmentio' 
+  pod 'Segmentio'
+  pod 'RealmSwift'
+  pod 'Alamofire'
 
   target 'WunderfullTests' do
     inherit! :search_paths
