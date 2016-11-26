@@ -7,6 +7,7 @@ Currently locations can be displayed in a list or map view.
 
 * List view showing name, location and fuel of the cars
 * Map view showing the locations of all cars around you
+* Unit tests for location initialization
 
 ## TODO's
 

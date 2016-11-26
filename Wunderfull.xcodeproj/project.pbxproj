@@ -13,7 +13,7 @@
 		A0E5A2201DE8E93300ADD9C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E5A21E1DE8E93300ADD9C5 /* Main.storyboard */; };
 		A0E5A2221DE8E93300ADD9C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0E5A2211DE8E93300ADD9C5 /* Assets.xcassets */; };
 		A0E5A2251DE8E93300ADD9C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E5A2231DE8E93300ADD9C5 /* LaunchScreen.storyboard */; };
-		A0E5A2301DE8E93300ADD9C5 /* WunderfullTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5A22F1DE8E93300ADD9C5 /* WunderfullTests.swift */; };
+		A0E5A2301DE8E93300ADD9C5 /* LocationModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5A22F1DE8E93300ADD9C5 /* LocationModelTest.swift */; };
 		A0E5A2401DE8EF4400ADD9C5 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5A23F1DE8EF4400ADD9C5 /* TabViewController.swift */; };
 		A0E5A2421DE8FC0200ADD9C5 /* TabViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5A2411DE8FC0200ADD9C5 /* TabViewBuilder.swift */; };
 		A0E5A2441DE9034C00ADD9C5 /* RealmStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E5A2431DE9034C00ADD9C5 /* RealmStore.swift */; };
@@ -49,7 +49,7 @@
 		A0E5A2241DE8E93300ADD9C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0E5A2261DE8E93300ADD9C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0E5A22B1DE8E93300ADD9C5 /* WunderfullTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WunderfullTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0E5A22F1DE8E93300ADD9C5 /* WunderfullTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WunderfullTests.swift; sourceTree = "<group>"; };
+		A0E5A22F1DE8E93300ADD9C5 /* LocationModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModelTest.swift; sourceTree = "<group>"; };
 		A0E5A2311DE8E93300ADD9C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0E5A23A1DE8E98500ADD9C5 /* Wunderfull-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wunderfull-Bridging-Header.h"; sourceTree = "<group>"; };
 		A0E5A23E1DE8E9CB00ADD9C5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -141,7 +141,7 @@
 		A0E5A22E1DE8E93300ADD9C5 /* WunderfullTests */ = {
 			isa = PBXGroup;
 			children = (
-				A0E5A22F1DE8E93300ADD9C5 /* WunderfullTests.swift */,
+				A0E5A22F1DE8E93300ADD9C5 /* LocationModelTest.swift */,
 				A0E5A2311DE8E93300ADD9C5 /* Info.plist */,
 			);
 			path = WunderfullTests;
@@ -376,7 +376,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0E5A2301DE8E93300ADD9C5 /* WunderfullTests.swift in Sources */,
+				A0E5A2301DE8E93300ADD9C5 /* LocationModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

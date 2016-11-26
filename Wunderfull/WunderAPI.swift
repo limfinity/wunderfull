@@ -27,7 +27,7 @@ struct WunderAPI {
             }
             let methodFinish = Date()
             let executionTime = methodFinish.timeIntervalSince(methodStart)
-            print("Execution time: \(executionTime)")
+            print("Execution time to add/update placemarks to realm database: \(executionTime)")
         }
     }
     
