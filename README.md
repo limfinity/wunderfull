@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/limfinity/wunderfull.svg?branch=master)](https://travis-ci.org/limfinity/wunderfull)
+
 # Wunderfull
 
 Example app to showcase data handling for displaying car locations. 
